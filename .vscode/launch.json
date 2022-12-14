@@ -58,14 +58,14 @@
             "name": "(gdb) Launch day12",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/day12/day12",
+            "program": "${workspaceFolder}/day12/Dijsktras",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
             "environment": [],
             "externalConsole": false,
             "MIMode": "gdb",
-            "preLaunchTask": "build day12",
+            "preLaunchTask": "build day12 Dijsktras",
             "setupCommands": [
                 {
                     "description": "Enable pretty-printing for gdb",

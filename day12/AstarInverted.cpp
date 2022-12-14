@@ -37,6 +37,9 @@ public:
         {
             std::tie(row, col, dist) = pq.top();
             pq.pop();
+            if (visited.find(std::make_pair(row, col)) != visited.end()){
+                continue;
+            }
             dist -= grid_[row][col];
             visited[std::make_pair(row, col)] = dist;
 
